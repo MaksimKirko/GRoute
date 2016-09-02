@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GRoute - как доехать?</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Настройки</string>
+    <string name="title_activity_tabbed">Маршруты</string>
+    <string name="title_activity_halts">Остановки</string>
+    <string name="title_activity_buses">Автобусы</string>
+    <string name="title_activity_my_location">MyLocationActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+
+</resources>

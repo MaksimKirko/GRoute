@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_myplace"
+            android:title="Местоположение" />
+        <item
+            android:id="@+id/nav_get_distance_point_route"
+            android:title="Задать пункт отправления"
+            android:checkable="true"
+            android:checked="false"/>
+            <!--app:actionViewClass="android.widget.CheckBox"-->
+            <!--app:showAsAction="ifRoom|withText"/>-->
+        <!--<item-->
+            <!--android:id="@+id/nav_myroutes"-->
+            <!--android:title="Мои маршруты" />-->
+        <item
+            android:id="@+id/nav_buses"
+            android:title="Автобусы" />
+        <item
+            android:id="@+id/nav_halts"
+            android:title="Остановки" />
+        <item
+            android:id="@+id/nav_tools"
+            android:title="@string/action_settings" />
+        <item
+            android:id="@+id/nav_about"
+            android:title="О приложении" />
+    </group>
+
+    <!-- android:icon="@drawable/ic_menu_manage"-->
+    <!--<item android:title="Communicate">-->
+    <!--<menu>-->
+    <!--<item-->
+    <!--android:id="@+id/nav_share"-->
+    <!--android:icon="@drawable/ic_menu_share"-->
+    <!--android:title="Share" />-->
+    <!--<item-->
+    <!--android:id="@+id/nav_send"-->
+    <!--android:icon="@drawable/ic_menu_send"-->
+    <!--android:title="Send" />-->
+    <!--</menu>-->
+    <!--</item>-->
+
+</menu>
